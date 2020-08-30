@@ -1,0 +1,25 @@
+{
+  "name": "elm-todomvc-parcel",
+  "version": "1.0.0",
+  "description": "All of the Elm code lives in `src/Main.elm` and relies on the [elm/html][html] library.",
+  "main": "elm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --out-dir dist",
+    "build": "parcel build index.html --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evancz/elm-todomvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evancz/elm-todomvc/issues"
+  },
+  "homepage": "https://github.com/evancz/elm-todomvc#readme",
+  "devDependencies": {
+    "node-elm-compiler": "^5.0.5",
+    "parcel-bundler": "^1.12.4"
+  }
+}

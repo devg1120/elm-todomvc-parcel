@@ -1,0 +1,26 @@
+# elm make & httpd
+
+- file
+index2.html
+elm.js         (elm make)
+
+
+- command
+elm make src/Main.elm --output=elm.js
+./Lighttpd_start.sh
+
+
+----------------
+# parcel
+
+https://qiita.com/IzumiSy/items/4aff1db5c773c48ef50b
+
+nvm  ls
+nvm  use v10.16.0
+
+- file
+index.html
+index.js
+
+npm start
+
